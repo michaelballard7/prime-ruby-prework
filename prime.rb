@@ -9,9 +9,10 @@ def prime?(num)
   while i < limit 
     if num % i == 0 
       return false 
-    end
+    else
     i += 1 
     limit = num / i
+    end
   end
   return true
 end
