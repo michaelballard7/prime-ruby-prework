@@ -6,14 +6,14 @@ def prime?(num)
   i = 2
   limit = num / i 
   prime = num % i == 0
-  isPrime = false
+  isPrime = true
   while i < limit
    if prime == true
+     isPrime = false
      return false 
-   else
+   end
    i +=1
    limit = num /i
-   isPrime = true
  end
  isPrime
   end
