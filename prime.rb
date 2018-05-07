@@ -6,6 +6,7 @@ def prime?(num)
   i = 2
   limit = num / i 
   prime = num % i == 0
+  return true
   while i < limit
    if prime == true
      return false 
@@ -13,5 +14,5 @@ def prime?(num)
    i +=1
    limit = num /i
  end
- return true
+ 
 end
