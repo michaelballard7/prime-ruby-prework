@@ -10,7 +10,7 @@ def prime?(num)
   while i < limit
    if prime == true
      isPrime = false
-     return false 
+     return isPrime
    end
    i +=1
    limit = num /i
