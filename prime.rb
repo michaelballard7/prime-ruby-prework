@@ -14,9 +14,8 @@ def prime?(num)
    end
    i +=1
    limit = num /i
+  isPrime
  end
- isPrime
-  end
   
   
 end
