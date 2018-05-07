@@ -4,7 +4,7 @@ def prime?(num)
     return false 
   end
   i = 2 
-  limit = num / i 
+  limit = num / (num -1) 
   
   while i < limit 
     if num % i == 0 
