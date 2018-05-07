@@ -12,6 +12,6 @@ def prime?(num)
    end
    i +=1
    limit = num /i
-   return true
  end
+ return true
 end
