@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   if num == 0 or num == 1 
-    return FALSE
+    return false 
   end
   i = 2 
   limit = num / i 
