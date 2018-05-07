@@ -7,6 +7,7 @@ if num < 2
   return false
 end
 
+while num % p 
 
  
  
