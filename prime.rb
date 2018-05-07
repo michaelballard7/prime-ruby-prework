@@ -10,11 +10,4 @@ def prime?(num)
     end 
   end
   is_prime
-
-
-
-while num % p 
-
- 
- 
 end
