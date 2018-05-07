@@ -13,6 +13,7 @@ def prime?(num)
    i +=1
    limit = num /i
    true
+ end
   end
   
 end
