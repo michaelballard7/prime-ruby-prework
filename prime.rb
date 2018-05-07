@@ -12,8 +12,8 @@ def prime?(num)
    else
    i +=1
    limit = num /i
-   true
  end
   end
+  true
   
 end
